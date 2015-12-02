@@ -1,0 +1,154 @@
+/*----------  User Icon  ----------*/
+
+.user-icon
+{
+	overflow: hidden;
+
+	a
+	{
+		display: block;
+	}
+
+	img
+	{
+		height: 55px;
+		width: 55px;
+
+		@extend .img-circle !optional;
+	}
+
+	// Has Border
+
+	&.has-border
+	{
+		img
+		{
+			border: 1px solid $brand-success-01;
+
+			@include transition;
+		}
+	}
+
+	// Icon Dimensions
+
+	&.icon-sm
+	{
+		img
+		{
+			width: 44px;
+			height: 44px;
+		}
+	}
+
+	&.icon-xl
+	{
+		img
+		{
+			width: 120px;
+			height: 120px;
+		}
+	}
+
+	&:hover, &:active, &:focus
+	{
+		img
+		{
+			border-color: $brand-gray-02;
+		}
+	}
+}
+
+/*----------  User Rows  ----------*/
+
+// User Rows
+
+.user-rows-container
+{
+	.user-row
+	{
+		position: relative;
+		padding: 5px 18px;
+		border-bottom: 1px solid $brand-gray-01;
+
+		@include transition;
+
+		h4
+		{
+			font-family: $font-primary !important;
+		}
+
+		a
+		{
+			display: block;
+		}
+
+		p
+		{
+			@include font-sm($brand-gray-02);
+		}
+
+		.row-inner
+		{
+			position: relative;
+		}
+
+		.user-icon
+		{
+			position: absolute;
+			top: 50%;
+			left: 0;
+			z-index: 9;
+
+			@include transform(translateY(-50%));
+		}
+
+		.user-details
+		{
+			padding-left: 85px;
+			padding-right: 65px;
+
+			.details-wrapper
+			{
+				max-width: 190px;
+				width: 100%;
+			}
+		}
+		
+		.user-username
+		{
+			p, a
+			{
+				font-weight: $weight-bold;
+			}
+		}
+
+		.user-languages
+		{
+			p, a
+			{
+				@include font-xs($brand-gray-02);
+			}
+		}
+
+		.user-hobbies
+		{
+			p
+			{
+				@extend .text-truncate !optional;
+			}
+		}
+
+		.user-chat-icon
+		{
+			position: absolute;
+			right: 0;
+			bottom: 5px;
+			z-index: 99;
+		}
+
+		&:hover, &:active, &:focus
+		{
+			background: darken($white-color, 3%);
+		}
+	}
+}

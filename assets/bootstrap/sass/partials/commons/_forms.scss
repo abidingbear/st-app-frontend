@@ -1,0 +1,162 @@
+/*----------  Forms Sections  ----------*/
+
+.tth-form-container
+{
+	// Common
+
+	p, a
+	{
+		@include font-sm($brand-gray-02);
+	}
+	
+	a
+	{
+		text-decoration: underline;
+
+		&:hover, &:active, &:focus
+		{
+			text-decoration: none;
+		}
+	}
+
+	// Labels
+
+	label
+	{
+		display: block;
+		cursor: pointer;
+
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		user-select: none;
+
+		@include font-sm($brand-gray-02);
+
+		*
+		{
+			@include font-sm($brand-gray-02);
+		}
+
+		a
+		{
+			text-decoration: underline;
+
+			&:hover, &:active, &:focus
+			{
+				text-decoration: none;
+			}
+		}
+	}
+
+	// Form Group
+
+	.form-group
+	{
+		margin-bottom: 0;
+
+		&.has-error
+		{
+			.form-control
+			{
+				@include placeholder($brand-danger-01);
+			}
+		}
+
+		&:last-child
+		{
+			margin-bottom: 0;
+		}
+	}
+
+	// Form Control
+
+	.form-control
+	{
+		padding: 0;
+		border: none;
+		height: 30px;
+		border-bottom: 1px solid $brand-gray-01;
+
+		@include border-radius(0);
+		@include font-base($brand-gray-01);
+		@include placeholder($brand-gray-01);
+
+		&:focus
+		{
+			color: $brand-gray-02;
+			border-color: $brand-gray-02;
+
+			@include placeholder(transparent !important);
+		}
+	}
+
+	// Actions
+
+	.form-alternate-signups-actions
+	{
+		text-align: center;
+	}
+
+	.check-action
+	{
+		label
+		{
+			@include clearfix;
+
+			.icheckbox_minimal
+			{
+				float: left;
+				margin-right: 20px;
+			}
+
+			span
+			{
+				float: left;
+			}
+		}
+	}
+
+	.action-subtitle
+	{
+		margin-bottom: 10px;
+
+		p
+		{
+			@include font-sm($brand-gray-02);
+
+			*
+			{
+				@include font-sm($brand-gray-02);
+			}
+
+			a
+			{
+				text-decoration: underline;
+
+				&:hover, &:active, &:focus
+				{
+					text-decoration: none;
+				}
+			}
+		}
+
+		&:last-child
+		{
+			margin-bottom: 0;
+		}
+	}
+
+	.actions-buttons
+	{
+		margin-bottom: 10px;
+
+		.btns-wrapper
+		{
+			max-width: 260px;
+			width: 100%;
+			margin: auto;
+		}
+	}
+}

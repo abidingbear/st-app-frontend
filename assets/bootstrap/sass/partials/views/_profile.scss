@@ -1,0 +1,233 @@
+/*----------  Profile  ----------*/
+
+.profile-status-container
+{
+	padding: 25px 0;
+
+	.status-inner
+	{
+
+	}
+
+	.status-wrapper
+	{
+		max-width: 270px;
+		width: 100%;
+		margin: auto;
+	}
+
+	// Head
+
+	.head
+	{
+		text-align: center;
+		margin-bottom: 45px;
+	}
+
+	// Profile Status Rows
+
+	.profile-status-rows-container
+	{
+		margin-bottom: 20px;
+
+		@include clearfix;
+
+		.status-row
+		{
+			position: relative;
+			margin-bottom: 20px;
+
+			@include clearfix;
+
+			a
+			{
+				display: block;
+
+				@include clearfix;
+			}
+
+			p
+			{
+				@include font-lg($brand-gray-02);
+			}
+
+			.status-icon, .status-title
+			{
+				float: left;
+			}
+
+			.status-title
+			{
+				margin-top: 5px;
+				margin-left: 30px;
+			}
+		}
+	}
+
+	// Btn Continue
+
+	.btn-continue-container
+	{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	// Skip Step
+
+	.link-skip-step
+	{
+		text-align: center;
+
+		a
+		{
+			@include font-sm($brand-gray-02);
+			
+			span
+			{
+				text-decoration: underline;
+			}
+
+			&:hover, &:active, &:focus
+			{
+				span
+				{
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+/*----------  Profile Status Completed  ----------*/
+
+.profile-status-container
+{
+	&.profile-status-complete
+	{
+		.head
+		{
+			margin-bottom: 5px;
+		}
+
+		.sub-head
+		{
+			text-align: center;
+			margin-bottom: 25px;
+
+			.sub-head-wrapper
+			{
+				max-width: 190px;
+				width: 100%;
+				margin: auto;
+			}
+
+			p
+			{
+				@include font-sm($brand-gray-02);
+			}
+		}
+	}
+}
+
+
+/*----------  User Profile  ----------*/
+
+.user-profile-container
+{
+	// Common
+
+	a
+	{
+		display: block;
+		text-decoration: underline;
+
+		@include transition;
+		@include font-sm($brand-gray-02);
+
+		&:hover, &:active, &:focus
+		{
+			text-decoration: none;
+		}
+	}
+
+	ul
+	{
+		li
+		{
+			margin-bottom: 10px;
+
+			@include font-sm($brand-gray-02);
+
+			span
+			{
+				font-weight: $weight-bold;
+				text-transform: uppercase;
+			}
+
+			&:last-child
+			{
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	@for $i from 1 through 6
+	{
+		h#{$i}
+		{
+			font-family: $font-primary !important;
+		}
+	}
+
+	// User Timeline Top Section
+
+	.user-profile-top-section-container
+	{
+		position: relative;
+		padding-top: 25px;
+		text-align: center;
+		padding-bottom: 10px;
+		border-bottom: 1px solid $brand-gray-03;
+
+		.profile-top-inner
+		{
+			position: relative;
+		}
+
+		.link-guide
+		{
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 2;
+		}
+
+		.user-icon
+		{
+			margin-bottom: 12px;
+		}
+
+		.user-username
+		{
+			a
+			{
+				text-decoration: none;
+
+				@include font-base($brand-gray-02);
+
+				&:hover, &:active, &:focus
+				{
+					color: $black-color;
+				}
+			}
+		}
+	}
+
+	// User Details
+
+	.user-details-container
+	{
+		padding: 15px 0;
+		border-bottom: 1px solid $brand-gray-03;
+	}
+}

@@ -1,0 +1,19 @@
+/*----------  Helpers  ----------*/
+
+.hidden-xxs
+{
+	display: block;
+
+	@media(max-width: $screen-xxs-max) {
+		display: none;
+	}
+}
+
+.visible-xxs
+{
+	display: none;
+
+	@media(max-width: $screen-xxs-max) {
+		display: block;
+	}
+}

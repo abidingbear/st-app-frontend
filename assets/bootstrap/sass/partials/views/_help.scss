@@ -1,0 +1,141 @@
+/*----------  Help Section  ----------*/
+
+.help-window-container
+{
+	padding-top: 25px;
+	padding-bottom: 40px;
+
+	p, a
+	{
+		@include font-sm($brand-gray-02);
+	}
+
+	p
+	{
+		margin-bottom: 7px;
+
+		&:last-child
+		{
+			margin-bottom: 0;
+		}
+	}
+
+	a
+	{
+		&:hover, &:active, &:focus
+		{
+			color: $black-color;
+		}
+	}
+
+	.help-inner
+	{
+
+	}
+
+	// Intro
+
+	.help-intro-container
+	{
+		text-align: center;
+		margin-bottom: 40px;
+
+		.head
+		{
+			margin-bottom: 10px;
+
+			.head-wrapper
+			{
+				max-width: 190px;
+				width: 100%;
+				margin: auto;
+			}
+		}
+
+		.intro-text-container
+		{
+			.text-wrapper
+			{
+				max-width: 250px;
+				width: 100%;
+				margin: auto;
+			}
+		}
+	}
+
+	// Help Steps
+
+	.help-steps-container
+	{
+		margin-bottom: 40px;
+
+		.steps-wrapper
+		{
+			max-width: 280px;
+			width: 100%;
+			margin: auto;
+		}
+
+		.step-block
+		{
+			margin-bottom: 30px;
+
+			.block-inner
+			{
+				position: relative;
+			}
+
+			p
+			{
+				@include font-sm($brand-gray-02);
+			}
+
+			.block-icon
+			{
+				position: absolute;
+				top: 50%;
+				left: 0;
+				z-index: 2;
+
+				@include transform(translateY(-50%));
+			}
+
+			.block-text
+			{
+				padding-left: 65px;
+			}
+
+			.block-title
+			{
+				margin-bottom: 5px;
+			}
+
+			&:last-child
+			{
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	// Btn Get Started
+
+	.btn-get-started
+	{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	// Assist Help
+
+	.assist-help-container
+	{
+		text-align: center;
+
+		.help-wrapper
+		{
+			max-width: 230px;
+			width: 100%;
+			margin: auto;
+		}
+	}
+}

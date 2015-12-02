@@ -1,0 +1,35 @@
+/*----------  Bootstrap Defaults  ----------*/
+@import "functions";
+@import "compass/css3";
+@import "bootstrap-variables";
+@import "bootstrap";
+
+/*----------  Essentials  ----------*/
+@import "partials/essentials/variables";
+@import "partials/essentials/mixins";
+@import "partials/essentials/reset";
+
+/*----------  Extends  ----------*/
+@import "partials/extends/extend";
+
+/*----------  Preloaders  ----------*/
+@import "partials/preloaders/preloaders";
+
+/*----------  Globals  ----------*/
+@import "partials/globals/app-mixins";
+@import "partials/globals/common";
+
+/*----------  Commons  ----------*/
+@import "partials/commons/header";
+@import "partials/commons/footer";
+@import "partials/commons/chats";
+@import "partials/commons/users";
+@import "partials/commons/forms";
+@import "partials/commons/modals";
+
+/*----------  Views  ----------*/
+@import "partials/views/help";
+@import "partials/views/login";
+@import "partials/views/profile";
+@import "partials/views/register";
+@import "partials/views/quit-slacktravel";

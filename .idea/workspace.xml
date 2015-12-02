@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3ea2b53-3505-4411-a1fa-bdc95757297b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/add-chat-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/add-remove-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/chat-icon-lg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/circle-add-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/circle-check-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/external-link-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/remove-chat-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/save-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/users-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/logos/main-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/logos/slacktravel-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/flat@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/futurico/futurico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/futurico/futurico@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/line@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/minimal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/minimal@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/polaris/polaris.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/polaris/polaris@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/square@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-icons_228ef1_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-icons_ffd27a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/js/minified/jquery.mCustomScrollbar.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/mCSB_buttons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/fonts/Pe-icon-7-stroke.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/fonts/Pe-icon-7-stroke.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/fonts/Pe-icon-7-stroke.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/images/background-paralax.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/fonts/slick.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/fonts/slick.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/fonts/slick.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/st-app-frontend.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/compile.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap-sprockets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/javascripts/bootstrap/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/_bootstrap-variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/_functions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/commons/_chats.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/commons/_footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/commons/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/commons/_header.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/commons/_modals.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/commons/_users.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/essentials/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/essentials/_reset.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/essentials/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/_extend.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/_helpers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/_images.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/_lists.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/_navbars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/mixins/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/mixins/_globals.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/mixins/_grid-framework.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/mixins/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/extends/mixins/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/globals/_app-mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/globals/_common.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/preloaders/_circular-bounce.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/preloaders/_preloaders.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/preloaders/keyframes/_circular-bounce.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/preloaders/keyframes/_keyframes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/views/_help.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/views/_login.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/views/_profile.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/views/_quit-slacktravel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/sass/partials/views/_register.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/stylesheets/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/externals/css3-mediaqueries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/externals/css3-mediaqueries.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/externals/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/externals/placeholders.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/externals/respond.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/externals/selectivizr-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/externals/selectivizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/preloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/patterns/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/animate/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/icheck.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/icheck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/flat/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/futurico/futurico.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/line.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/line/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/minimal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/minimal/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/polaris/polaris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/square.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/icheck/skins/square/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jq-match-height/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jq-match-height/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jq-match-height/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jq-match-height/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jq-match-height/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jq-match-height/jquery.matchHeight-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jq-match-height/jquery.matchHeight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jq-match-height/lib/jquery-1.11.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jq-match-height/matchHeight.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/external/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/jquery-ui.structure.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/jquery-ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery-ui/jquery-ui.theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.concat.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/js/minified/jquery-1.11.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/js/minified/jquery-1.9.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/js/minified/jquery-2.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/js/minified/jquery-ui-1.10.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/js/minified/jquery.mCustomScrollbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/js/minified/jquery.mousewheel-3.0.6.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/js/minified/jquery.mousewheel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/js/uncompressed/jquery.mCustomScrollbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/js/uncompressed/jquery.mousewheel-3.0.6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/js/uncompressed/jquery.mousewheel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/malihu-custom-scrollbar/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/modernizr/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/add-user.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/airplay.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/alarm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/album.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/albums.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/anchor.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/angle-down-circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/angle-down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/angle-left-circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/angle-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/angle-right-circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/angle-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/angle-up-circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/angle-up.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/arc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/attention.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/back-2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/back.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/ball.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/bandaid.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/battery.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/bell.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/bicycle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/bluetooth.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/bookmarks.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/bottom-arrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/box1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/box2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/browser.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/calculator.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/call.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/camera.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/car.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/cart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/cash.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/chat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/check.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/clock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/close-circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/close.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/cloud-download.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/cloud-upload.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/cloud.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/coffee.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/comment.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/compass.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/config.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/copy-file.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/credit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/crop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/culture.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/cup.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/date.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/delete-user.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/diamond.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/disk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/diskette.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/display1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/display2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/door-lock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/download.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/drawer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/drop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/edit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/exapnd2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/expand1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/eyedropper.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/female.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/file.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/film.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/filter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/flag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/folder.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/gift.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/glasses.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/gleam.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/global.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/graph.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/graph1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/graph2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/graph3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/gym.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/hammer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/headphones.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/helm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/help1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/help2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/home.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/hourglass.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/id.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/info.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/joy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/junk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/key.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/keypad.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/leaf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/left-arrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/less.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/like.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/like2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/link.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/lintern.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/lock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/look.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/loop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/magic-wand.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/magnet.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/mail-open-file.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/mail-open.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/mail.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/male.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/map-2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/map-marker.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/map.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/medal.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/menu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/micro.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/monitor.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/moon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/more.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/mouse.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/music.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/musiclist.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/mute.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/network.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/news-paper.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/next-2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/next.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/note.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/note2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/notebook.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/paint-bucket.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/paint.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/paper-plane.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/paperclip.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/pen.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/pendrive.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/phone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/photo-gallery.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/photo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/piggy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/pin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/plane.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/play.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/plug.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/plugin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/plus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/portfolio.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/power.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/prev.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/print.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/radio.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/refresh-2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/refresh-cloud.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/refresh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/repeat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/ribbon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/right-arrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/rocket.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/safe.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/science.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/scissors.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/search.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/server.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/settings.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/share.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/shield.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/shopbag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/shuffle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/signal.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/smile.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/speaker.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/star.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/stopwatch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/study.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/sun.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/switch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/target.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/ticket.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/timer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/tools.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/trash.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/umbrella.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/unlock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/up-arrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/upload.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/usb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/user-female.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/user.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/users.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/vector.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/video.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/voicemail.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/volume.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/volume1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/volume2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/wallet.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/way.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/wine.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/world.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/SVG/wristwatch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/Pe-icon-7-stroke.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/docs/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/fonts/Pe-icon-7-stroke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/libs/css/bootstrap-select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/libs/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/libs/css/prism.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/libs/js/bootstrap-select.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/libs/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/libs/js/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/libs/js/jquery-1.11.1.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/libs/js/prism.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/refs/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/assets/refs/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/changelog-v1.2.0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/documentation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/icomoon/selection.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/pe-icon-7-stroke/css/helper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/read-me.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/pixeden-icons/reference.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/CONTRIBUTING.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/fonts/slick.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/slick-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/slick-theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/slick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/slick/slick/slick.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/LICENSE-MIT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/css/libs/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/css/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/dist/wow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/dist/wow.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/spec/coffeescripts/helpers/SpecHelper.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/spec/coffeescripts/wow-spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/spec/javascripts/fixtures/custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/spec/javascripts/fixtures/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/spec/javascripts/helpers/SpecHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/spec/javascripts/libs/jasmine-jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/spec/javascripts/libs/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/spec/javascripts/wow-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/plugins/wow/src/wow.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/group-chat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/common/_ask-question-form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/common/_footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/common/_header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/common/_user-rows.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/forms/_login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/forms/_quit-slacktravel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/profile/_profile-complete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/profile/_profile-status.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user-profile.php" />
+    </list>
+    <ignored path="st-app-frontend.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="st-app-frontend" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4398827">
+              <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="help.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/help.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile.lock" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_helper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="group-chat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/group-chat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="61" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="829" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st-app-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st-app-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st-app-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st-app-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st-app-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st-app-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="st-app-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3ea2b53-3505-4411-a1fa-bdc95757297b" name="Default" comment="" />
+      <created>1449079831319</created>
+      <option name="number" value="Default" />
+      <updated>1449079831319</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="61" y="23" width="1440" height="829" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/user-profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group-chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4398827">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

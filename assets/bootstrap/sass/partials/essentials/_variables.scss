@@ -1,0 +1,74 @@
+/*----------  Font Variables  ----------*/
+
+$font-primary				: 'Lato', sans-serif;
+$font-secondary				: 'Arvo', serif;
+// $sub-font-01				: sans-serif;
+// $sub-font-02				: sans-serif;
+
+/*----------  Color Variables  ----------*/
+
+/*-----  Default Variables  -----*/
+
+$white-color				: #fff !default;
+$black-color				: #000 !default;
+
+/*-----  Unsorted Variables  -----*/
+
+$color-01					: #7d746b;
+// $color-02					: #;
+
+/*-----  Brands Variables  -----*/
+
+/* Brand Primary */
+// $brand-primary-01			: #;
+// $brand-primary-02			: #;
+
+/* Brand Info */
+// $brand-info-01				: #;
+// $brand-info-02				: #;
+
+/* Brand Warning */
+// $brand-warning-01			: #;
+// $brand-warning-02			: #;
+
+/* Brand Success */
+$brand-success-01			: #339900;
+// $brand-success-02			: #;
+
+/* Brand Danger */
+$brand-danger-01				: #ed0e0e;
+// $brand-danger-02				: #;
+
+/* Brand Gray */
+$brand-gray-01				: #666;
+$brand-gray-02				: #333;
+$brand-gray-03				: #999;
+$brand-gray-04				: #ccc;
+$brand-gray-05				: #959595;
+
+/* Social Brands */
+$brand-twitter				: #2aa8df;
+$brand-facebook				: #3a5899;
+
+/*----------  Font Weight Variables  ----------*/
+
+$weight-hairline 			: 100;
+$weight-light	 			: 300;
+$weight-regular 			: 400;
+$weight-semibold 			: 600;
+$weight-bold	 			: 700;
+$weight-extrabold	 		: 900;
+
+/*----------  Font Size Variables  ----------*/
+
+$font-base					: abs(rem-calc(14)) !default;				// 14px
+$font-xs					: abs($font-base - rem-calc(4)) !default;	// 10px
+$font-sm					: abs($font-base - rem-calc(2)) !default;	// 12px
+$font-md					: abs($font-base + rem-calc(2)) !default;	// 16px
+$font-lg					: abs($font-base + rem-calc(4)) !default;	// 18px
+$font-xl					: abs($font-base + rem-calc(6)) !default;	// 20px
+$font-xxl					: abs($font-base + rem-calc(16)) !default;	// 30px
+
+/*----------  Responsive Breakpoints  ----------*/
+
+$screen-xxs-max				: 480px;

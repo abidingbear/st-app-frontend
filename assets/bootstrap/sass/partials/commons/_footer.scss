@@ -1,0 +1,57 @@
+/*----------  Footer Styling  ----------*/
+
+footer
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 99;
+	background: $white-color;
+	
+	/*----------  Powered By Section  ----------*/
+
+	.poweredby-container
+	{
+		padding-top: 5px;
+		text-align: center;
+		padding-bottom: 7px;
+		border-top: 1px solid $brand-gray-04;
+
+		@include clearfix;
+
+		.poweredby-inner
+		{
+			display: inline-block;
+
+			@include clearfix;
+		}
+
+		.poweredby-title
+		{
+			float: left;
+			margin-top: 3px;
+			margin-right: 5px;
+
+			p
+			{
+				@include font-xs($brand-gray-02);
+			}
+		}
+
+		.poweredby-logo
+		{
+			float: left;
+
+			a
+			{
+				display: block;
+			}
+
+			img
+			{
+				max-height: 15px;
+			}
+		}
+	}
+}

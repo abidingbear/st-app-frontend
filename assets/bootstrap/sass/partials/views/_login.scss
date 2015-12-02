@@ -1,0 +1,59 @@
+/*----------  Login Section  ----------*/
+
+.login-container
+{
+	padding-top: 20px;
+	padding-bottom: 25px;
+
+	.head
+	{
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+	.body
+	{
+
+	}
+
+	.login-form-container
+	{
+		.form-body
+		{
+			.form-group
+			{
+				margin-bottom: 25px;
+			}
+		}
+
+		.form-footer
+		{
+			.form-actions
+			{
+				margin-bottom: 15px;
+
+				.login-forget-password-actions
+				{
+					text-align: center;
+
+					@include clearfix;
+
+					.actions-inner
+					{
+						float: right;
+					}
+
+					a
+					{
+						@include font-xs($brand-gray-02);
+					}
+
+					.btn-submit
+					{
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+}

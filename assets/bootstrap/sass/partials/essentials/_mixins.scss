@@ -1,0 +1,316 @@
+/*----------  Clearfix  ----------*/
+
+@mixin clearfix() 
+{
+	&:before, &:after 
+	{
+		content: " "; // 1
+		display: table; // 2
+	}
+
+	&:after 
+	{
+		clear: both;
+	}
+}
+
+/*----------  Placeholders  ----------*/
+
+@mixin placeholder($color: $black-color, $opacity: 1) 
+{
+	&::-moz-placeholder 
+	{
+		color: $color;
+		@include opacity($opacity);
+	}
+	
+	&:-ms-input-placeholder
+	{ 
+		color: $color;
+		@include opacity($opacity);
+	}
+
+	&::-webkit-input-placeholder
+	{
+		color: $color;
+		@include opacity($opacity);
+	}
+}
+
+/*----------  Reset  ----------*/
+
+@mixin reset()
+{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	line-height: 1.2;
+	border-radius: 0;
+	background: none;
+}
+
+@mixin reset-position()
+{
+	position: relative;
+	top: auto;
+	left: auto;
+	bottom: auto;
+	right: auto;
+}
+
+@mixin reset-list()
+{
+	list-style-type: none;
+
+	@include reset;
+}
+
+/*----------  Transition Mixins  ----------*/
+
+@mixin transition($element : all, $duration : 0.3s, $animation : ease-in-out)
+{
+	-webkit-transition: $element $duration $animation;
+	-moz-transition: $element $duration $animation;
+	-ms-transition: $element $duration $animation;
+	-o-transition: $element $duration $animation;
+	transition: $element $duration $animation;
+}
+
+/*----------  Fonts Mixins  ----------*/
+
+@mixin font($font-size, $font-weight, $line-height, $color) 
+{
+	font-size: $font-size;
+	font-weight: $font-weight;
+	line-height: $line-height;
+	color: $color;
+}
+
+@mixin font-fa($font-size, $font-weight, $line-height, $color) 
+{
+	font-family: 'FontAwesome' !important;
+	@include font($font-size, $font-weight, $line-height, $color);
+}
+
+@mixin font-p($font-size, $font-weight, $line-height, $color) 
+{
+	font-family: $font-primary;
+	@include font($font-size, $font-weight, $line-height, $color);
+}
+
+@mixin font-s($font-size, $font-weight, $line-height, $color) 
+{
+	font-family: $font-secondary;
+	@include font($font-size, $font-weight, $line-height, $color);
+}
+
+@mixin sub-font-01($font-size, $font-weight, $line-height, $color) 
+{
+	font-family: $sub-font-01;
+	@include font($font-size, $font-weight, $line-height, $color);
+}
+
+@mixin sub-font-02($font-size, $font-weight, $line-height, $color) 
+{
+	font-family: $sub-font-02;
+	@include font($font-size, $font-weight, $line-height, $color);
+}
+
+/*----------  Pattern Bg  ----------*/
+
+@mixin pattern($name, $ext: 'png', $path: '../../patterns')
+{
+	background: url('#{$path}/#{$name}.#{$ext}') left top;
+}
+
+/*----------  Placeholder Bg  ----------*/
+
+@mixin placeholdit($size: '500x500', $bg_color: 'aaa', $txt_color: 'f5f5f5', $text: 'Placeholder')
+{
+	background: url('https://placehold.it/#{$size}/#{$bg_color}/#{$txt_color}?text=#{$text}') no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+/*----------  Zoom Hover  ----------*/
+
+@mixin circular-zoom-hover($bg-color: $white-color, $opacity: 0.1, $speed: 0.2s)
+{
+	position: relative;
+	overflow: hidden;
+	z-index: 2;
+
+	&:before
+	{
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		height: 0;
+		width: 0;
+		z-index: -1;
+		background: rgba($bg-color, $opacity) !important;
+
+		@include border-radius(99999px);
+		@include transition(all, $speed, linear);
+		@include transform(translate(-50%, -50%));
+	}
+
+	&:hover, &:active, &:focus
+	{
+		&:before
+		{
+			width: 200%;
+			height: 200%;
+			
+			@include transform(translate(-50%, -50%));
+		}
+	}
+}
+
+/*----------  Scale Hover  ----------*/
+
+@mixin scale-hover($bg-color: $white-color, $opacity: 0.1, $speed: 0.2s, $scale: 'Y')
+{
+	position: relative;
+	overflow: hidden;
+	z-index: 2;
+
+	&:before
+	{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		z-index: -1;
+		background: rgba($bg-color, $opacity) !important;
+
+		@if $scale == 'Y'
+		{
+			@include transform(scaleY(0));
+		} 
+		@else if $scale == 'X'
+		{
+			@include transform(scaleX(0));
+		}
+		@else
+		{
+			@include transform(scaleY(0));
+		}
+
+		@include transition(all, $speed, linear);
+	}
+
+	&:hover, &:active, &:focus
+	{
+		&:before
+		{
+			width: 100%;
+
+			@if $scale == 'Y'
+			{
+				@include transform(scaleY(1));
+			} 
+			@else if $scale == 'X'
+			{
+				@include transform(scaleX(1));
+			}
+			@else
+			{
+				@include transform(scaleY(1));
+			}
+		}
+	}
+}
+
+/*----------  Sliding Hover  ----------*/
+
+@mixin slide-hover($bg: $white-color, $pos: 'X', $slide: 'left', $op: 1, $dur: 0.2s)
+{
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+
+	&:before
+	{
+		content: '';
+		position: absolute;
+		background: $bg;
+		background: rgba($bg, $op);
+		z-index: -1;
+
+		@include transition($duration : $dur);
+
+		@if $pos == 'X'
+		{
+			top: 0;
+			width: 0;
+			height: 100%;
+
+			@if $slide == 'left'
+			{
+				left: 0;
+				right: auto;
+			}
+			@else if $slide == 'right'
+			{
+				right: 0;
+				left: auto;
+			}
+			@else
+			{
+				left: 0;
+				right: auto;
+			}
+		}
+		@else if $pos == 'Y'
+		{
+			left: 0;
+			height: 0;
+			width: 100%;
+
+			@if $slide == 'top'
+			{
+				top: 0;
+				bottom: auto;
+			}
+			@else if $slide == 'bottom'
+			{
+				bottom: 0;
+				top: auto;
+			}
+			@else
+			{
+				top: 0;
+				bottom: auto;
+			}
+		}
+		@else
+		{
+			top: 0;
+			width: 0;
+			height: 100%;
+		}
+	}
+
+	&:hover, &:active, &:focus
+	{
+		&:before
+		{
+			@if $pos == 'X'
+			{
+				width: 100%;
+			}
+			@else if $pos == 'Y'
+			{
+				height: 100%;
+			}
+			@else
+			{
+				width: 100%;
+			}
+		}
+	}
+}

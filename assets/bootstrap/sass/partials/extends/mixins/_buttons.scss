@@ -1,0 +1,8 @@
+/*----------  Buttons Theme  ----------*/
+
+@mixin button-theme($color: $black-color, $background: transparent, $border-color: transparent)
+{
+	color: $color !important;
+	background: $background !important;
+	border-color: $border-color !important;
+}

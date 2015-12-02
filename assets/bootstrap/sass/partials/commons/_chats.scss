@@ -1,0 +1,102 @@
+/*----------  Group Chat Window Section  ----------*/
+
+.group-chat-window-container
+{
+	// Add More Users
+
+	.add-more-users-container
+	{
+		border-bottom: 1px solid $brand-gray-02;
+
+		.add-more-users-inner
+		{
+			position: relative;
+
+			@include clearfix;
+		}
+
+		// User Blocks
+
+		.users-blocks-container
+		{
+			float: left;
+			width: 75%;
+			overflow-x: auto;
+			padding-left: 18px;
+
+			.users-blocks-wrapper
+			{
+				width: 800px;
+				margin: 0 -5px;
+
+				@include clearfix;
+			}
+
+			.user-block
+			{
+				float: left;
+				text-align: center;
+
+				a
+				{
+					position: relative;
+					display: block;
+					padding: 8px 5px;
+				}
+
+				p
+				{
+					@include transition;
+					@include font-xs($brand-gray-01);
+				}
+
+				.user-icon
+				{
+					margin-bottom: 2px;
+				}
+
+				/* &:after
+				{
+					content: '';
+					position: absolute;
+					bottom: 1px;
+					width: 100%;
+					height: 2px;
+					background: ;
+				} */
+
+				&:hover, &:active, &:focus
+				{
+					p
+					{
+						color: $brand-gray-02;
+					}
+
+					.user-icon
+					{
+						img
+						{
+							border-color: $brand-gray-02;
+						}
+					}
+				}
+			}
+		}
+
+		// Btn Add Remove
+
+		.btn-add-remove
+		{
+			float: right;
+			width: 76px;
+			text-align: center;
+			background: $white-color;
+
+			a
+			{
+				display: block;
+				padding: 27px 0;
+			}
+		}
+	}
+}

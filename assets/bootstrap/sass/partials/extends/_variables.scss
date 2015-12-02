@@ -1,0 +1,35 @@
+/*----------  Color Variables  ----------*/
+
+/*-----  Brands Variables  -----*/
+
+/* Brand Primary */
+// $brand-primary-01			: #;
+// $brand-primary-02			: #;
+
+/* Brand Info */
+// $brand-info-01				: #;
+// $brand-info-02				: #;
+
+/* Brand Warning */
+// $brand-warning-01			: #;
+// $brand-warning-02			: #;
+
+/* Brand Success */
+// $brand-success-01			: #;
+// $brand-success-02			: #;
+
+/* Brand Danger */
+// $brand-danger-01				: #;
+// $brand-danger-02				: #;
+
+/* Brand Gray */
+$brand-gray-darker				: lighten($black-color, 13.5%); // #222
+$brand-gray-dark				: lighten($black-color, 20%);   // #333
+$brand-gray						: lighten($black-color, 33.5%); // #555
+$brand-gray-light				: lighten($black-color, 46.7%); // #777
+$brand-gray-lighter				: lighten($black-color, 93.5%); // #eee
+
+/*----------  Grid Variables  ----------*/
+
+// $prefix: 'bs';
+// $extend-grid-columns: 12;

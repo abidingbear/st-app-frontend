@@ -1,0 +1,293 @@
+/*----------  HTML  ----------*/
+
+html
+{
+	min-height: 100%;
+	height: 100%;
+}
+
+/*----------  Body  ----------*/
+
+body
+{
+	position: relative;
+	overflow: auto;
+	min-height: 100%;
+	padding-bottom: 35px;
+
+	@include font-p($font-base, $weight-regular, rem-calc(20), $black-color);
+	@include circular-preloader($brand-gray-03, darken($brand-gray-03, 20%), 0.5);
+}
+
+/*----------  Body/Main  ----------*/
+
+main
+{
+	min-height: 100%;
+}
+
+/*----------  Temp  ----------*/
+
+.thh-triggers
+{
+	padding: 15px;
+}
+
+/*----------  Grid  ----------*/
+
+.row
+{
+	@include row-spacing(16px);
+
+	&.row-10
+	{
+		@include row-spacing(10px);
+	}
+
+	&.row-20
+	{
+		@include row-spacing(20px);
+	}
+}
+
+/*----------  Container Fluid  ----------*/
+
+.container-fluid
+{
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+/*----------  Typography  ----------*/
+
+h1
+{
+	@include font-xl;
+}
+
+h2
+{
+	@include font-lg;
+}
+
+h3
+{
+	@include font-md;
+}
+
+h4
+{
+	@include font-base;
+}
+
+h5
+{
+	@include font-sm;
+}
+
+h6
+{
+	@include font-xs;
+}
+
+p
+{
+	@include font-base;
+}
+
+a
+{
+	@include font-base;
+	@include transition;
+
+	&:hover, &:active, &:focus
+	{
+		text-decoration: none;
+	}
+}
+
+@for $i from 1 through 6
+{
+	h#{$i}
+	{
+		color:$brand-gray-02;
+		font-family: $font-secondary !important;
+	}
+}
+
+/*----------  Buttons  ----------*/
+
+.btn
+{
+	padding: 6px 22px;
+
+	@include transition;
+	
+	@include font-base
+	(
+		$color: $brand-gray-02,
+		$family: $font-secondary
+	);
+
+	&.btn-tth-base
+	{
+		padding: 6px 22px;
+	}
+
+	&.btn-tth-md
+	{
+		padding: 6px 27px;
+	}
+
+	&.btn-twitter
+	{
+		padding: 0;
+		height: 40px;
+		padding-top: 7px;
+
+		@include border-radius(0);
+		@include button-theme($white-color, $brand-twitter, $brand-gray-05);
+		@include font(rem-calc(26), $weight-regular, rem-calc(15), $white-color);
+
+		&:hover, &:active, &:focus
+		{
+			@include button-theme($brand-twitter, transparent, $brand-twitter);
+		}
+	}
+
+	&.btn-facebook
+	{
+		padding: 0;
+		height: 40px;
+		padding-top: 7px;
+
+		@include border-radius(0);
+		@include button-theme($white-color, $brand-facebook, $brand-gray-05);
+		@include font(rem-calc(26), $weight-regular, rem-calc(15), $white-color);
+
+		&:hover, &:active, &:focus
+		{
+			@include button-theme($brand-facebook, transparent, $brand-facebook);
+		}
+	}
+
+	&:hover, &:active, &:focus
+	{
+		color: $white-color !important;
+	}
+}
+
+/*----------  Ask Question Section  ----------*/
+
+.ask-new-question-container
+{
+	.form-group
+	{
+		margin-bottom: 0;
+
+		.form-control
+		{
+			border: none;
+			padding: 8px 20px;
+
+			@include transition;
+			@include font-base($brand-gray-02);
+			@include placeholder($brand-gray-03);
+
+			&:focus
+			{
+				background: darken($white-color, 3%);
+
+				@include placeholder(transparent);
+			}
+		}
+
+		textarea.form-control
+		{
+			height: auto;
+			min-height: 120px;
+		}
+	}
+
+	.form-btns
+	{
+		margin: 10px 0;
+
+		@include clearfix;
+
+		.btn-arrow
+		{
+			float: left;
+
+			a
+			{
+				padding: 0 30px;
+			}
+		}
+
+		.btn-submit
+		{
+			float: right;
+			padding-right: 18px;
+
+			.btn
+			{
+				padding: 4px 9px;
+				padding-bottom: 5px;
+				font-size: $font-sm;
+				line-height: $font-base;
+			}
+		}
+	}
+}
+
+/*----------  Custom Scroll  ----------*/
+
+.mCustomScrollbar 
+{
+	.mCustomScrollBox
+	{
+		.mCSB_container
+		{
+			margin: 0;
+		}
+
+		.mCSB_scrollTools
+		{
+			@include opacity(0.5);
+
+			&.mCSB_scrollTools_horizontal
+			{
+				height: 2px;
+				bottom: 2px;
+				
+				.mCSB_draggerContainer
+				{
+					.mCSB_dragger
+					{
+						background: $brand-gray-01;
+					}
+
+					.mCSB_draggerRail
+					{
+						margin: 0;
+						margin-bottom: 1px;
+
+						@include opacity(0);
+					}
+				}
+			}
+		}
+	}
+
+	&:hover, &:active, &:focus
+	{
+		.mCustomScrollBox
+		{
+			.mCSB_scrollTools
+			{
+				@include opacity(1);
+			}
+		}
+	}
+}

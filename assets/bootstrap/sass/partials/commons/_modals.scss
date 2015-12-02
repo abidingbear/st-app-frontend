@@ -1,0 +1,67 @@
+/*----------  THH Modals  ----------*/
+
+.thh-modals-container
+{
+	.modal
+	{
+		.modal-dialog
+		{
+			width: 100%;
+			margin: 0 auto;
+			max-width: 500px;
+			margin-top: 54px;
+			
+			-webkit-box-shadow: 0 1px 10px 0 $color-01;
+			box-shadow: 0 1px 10px 0 $color-01;
+
+			// @include box-shadow(1px 0px 10px 0px rgba($color-01, 0.75));
+
+			.modal-content
+			{
+				border: 0;
+
+				@include border-radius(3px);
+
+				.btn-close
+				{
+					position: absolute;
+					top: 15px;
+					right: 10px;
+					z-index: 1;
+
+					@include font(rem-calc(22), $weight-regular, rem-calc(18), $brand-gray-02);
+				}
+
+				.modal-header
+				{
+					border: 0;
+					padding: 0;
+					height: auto;
+					min-height: auto;
+				}
+
+				.modal-body
+				{
+					padding: 0;
+				}
+			}
+		}
+	}
+}
+
+/*----------  Backdrop  ----------*/
+
+.modal-backdrop
+{
+	&.fade
+	{
+
+	}
+
+	&.in
+	{
+		background: rgba($brand-gray-01, 0.6);
+
+		@include opacity(1);
+	}
+}
